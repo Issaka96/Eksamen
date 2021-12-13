@@ -1,0 +1,49 @@
+.baggrund
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -10px;
+    
+}
+
+h1 {
+    font-size: 50px;
+    font-family:serif;
+    color: #DEC609;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    margin-bottom: 10px;  
+    
+}
+
+h2 {
+    font-size: 20px;
+    font-family: serif;
+    color: #DEC609;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.navbar-mobil ul {
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 60px;
+   
+
+}
+
+.navbar-mobil ul a {
+    text-decoration: none;
+    padding: 60px;
+}
