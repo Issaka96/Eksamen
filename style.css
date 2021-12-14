@@ -74,6 +74,12 @@ li a:hover {
    
 }
 
+.mig {
+    width: 170px;
+    height: 170px;
+    margin-left: 90px;
+}
+
 .om-mig {
     background-color: #FFFFFF;
     width: 100%;
@@ -122,7 +128,7 @@ p {
     margin-left: -8px;
 }
 
-.info {
+.kontakt {
     text-align: center;
     line-height: 70px;
     margin-left: 10px;
@@ -140,4 +146,83 @@ p {
     margin-bottom: -20px;
     padding-top: 10px;
     font-size: 10px;
+}
+
+/*iPad version*/
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 70px;
+        padding-top: 90px;
+        
+    }  
+    
+    .subtitle {
+        font-size: 30px;
+
+    }
+
+    .navbar-mobil ul a {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }  
+
+    h2 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .mig {
+        width: 170px;
+        height: 170px;
+        margin-left: 90px;
+    }
+    
+    .om-mig {
+        padding-bottom: 340px;
+        padding-top: 50px;
+    
+    }
+
+    .info {
+        padding-right: 400px;
+        padding-top: 150px;
+    
+    }
+    p {
+        font-size: 20px;
+    }
+
+    /*for at få billedet ved siden af teksten har jeg været inde på denne side d. 14/12 https://www.codecademy.com/forum_questions/51acec89324e0ccf6d00010f*/
+    .mig {
+        float: right;
+        padding-right: 40px;
+        width: 200px;
+        height: 200px;
+        padding-top: 150px;
+    }
+
+    .spacejam {
+        width: 600px;
+        padding-left: 80px;
+    }
+
+    .rumrejsen {
+        padding-bottom: 300px;
+    }
+
+        
+        
+
+    
+
+
+
+
 }
