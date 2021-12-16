@@ -166,6 +166,10 @@ header {
     display: none;
     }
 
+.logo {
+    display: none;
+}    
+
 
     
 
@@ -287,6 +291,10 @@ header {
         display: none;
     }
 
+    .logo {
+        display: none;
+    }
+
 
 
 
@@ -301,10 +309,49 @@ header {
         display: initial;
         
         
+        
+    }
+
+    .navbar-computer {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .navbar-computer ul {
+        font-family: 'Quicksand', sans-serif;
+        list-style: none;
+        text-decoration: none;
+        text-align: right;
+        display: flex;
+        
+        
+        
+    }
+
+
+    .navbar-computer ul a {
+        text-decoration: none;
+        font-size: 20px;
+        margin: 15px;
+        color: black;
+        
+
+        
+    }
+
+    .logo {
+        display: initial;
+        height: 40px;
+        width: 60px;
     }
 
     .forside {
         height: 600px;
+    }
+
+    h1 {
+        padding-top: 220px;
     }
 
     .navbar-mobil {
@@ -357,24 +404,7 @@ header {
         height: 600px;
     }
 
-    .navbar-computer ul {
-        font-family: 'Quicksand', sans-serif;
-        list-style: none;
-        text-decoration: none;
-        text-align: right;
-        display: flex;
-        
-    }
-
-
-    .navbar-computer ul a {
-        text-decoration: none;
-        font-size: 20px;
-        margin: 15px;
-        color: black;
-
-        
-    }
+   
 
 
 
