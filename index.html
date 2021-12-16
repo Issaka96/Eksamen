@@ -14,41 +14,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="forside">
-    <img src="mobilbaggrund.png" alt="baggrund" class="baggrund">
-    <h1>Jessica Issaka</h1>
-        <h2 class="subtitle">Multimediedesigner</h2>
-    <!--omdirigering fra navbaren til en anden section er taget herfra d. 13/12-21: https://www.geeksforgeeks.org/how-to-redirect-to-a-particular-section-of-a-page-using-html-or-jquery/-->
+    <header>
+        <nav class="navbar-computer">
+            <ul>
+                <li><a href="#om-mig">Om mig</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section class="forside">
+        <img src="mobilbaggrund.png" alt="baggrund" class="baggrund">
+        <!--Baggrunden til mobil er øverst og baggrund til computer er nedenunder-->
+        <img src="baggrund.png" alt="baggrund" class="computer-baggrund">
+        <h1>Jessica Issaka</h1>
+            <h2 class="subtitle">Multimediedesigner</h2>
+        <!--omdirigering fra navbaren til en anden section er taget herfra d. 13/12-21:
+        https://www.geeksforgeeks.org/how-to-redirect-to-a-particular-section-of-a-page-using-html-or-jquery/-->
         <nav class="navbar-mobil">
-        <ul>
-            <li><a href="#om-mig">Om mig</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-    </nav>
-</section>
-<section id="om-mig" class="om-mig">
-    <h2>Om mig</h2>
-    <img src="mig.png" alt="mig" class="mig">
+            <ul>
+                <li><a href="#om-mig">Om mig</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="om-mig" class="om-mig">
+        <h2>Om mig</h2>
+        <img src="mig.png" alt="mig" class="mig">
         <p class="info">
-            Where does it come from?
-            Contrary to popular belief, Lorem Ipsum is not
-            simply random text. It has roots in a piece of
-            classical Latin literature from 45 BC, making it over
-            2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up
-            one of the more obscure Latin words, consectetur,
-            from a Lorem Ipsum passage, and going through the
-            cites of the word in classical literature, discovered the.
+            Mit navn er Jessica, jeg er 25 år, kommer fra
+            København og er pt. i gang med mit første semester
+            som multimediedesigner på Zealand i Køge.
+            Jeg er en engageret, ansvarlig og målretter person med
+            masser af gåpåmod, og jeg er ikke bange for at springe
+            ud i nye udfordringer.
+            <br>Jeg brænder for at arbejde med grafisk design og web
+            design.
         </p>
     
 
 
-</section>
-<section id="portfolio" class="rumrejsen">
-    <h2>Portfolio</h2>
-        <h3>Space Jam</h3>
-        <img src="Spacejam.png" alt="spacejam" class="spacejam">
+    </section>
+    <section id="portfolio" class="rumrejsen">
+        <h2>Portfolio</h2>
+            <h3>Space Jam</h3>
+            <img src="Spacejam.png" alt="spacejam" class="spacejam">
             <p>
                 Where does it come from?
                 Contrary to popular belief, Lorem Ipsum is not
@@ -62,10 +75,12 @@
             </p>
 
 
-</section>
-<section class="gocycle">
-    <h3>GoCycle</h3>
-    <img src="goc-inspo.png" alt="inspo" class="inspo">
+    </section>
+    <section class="gocycle">
+        <h3>GoCycle</h3>
+        <img src="goc-inspo.png" alt="inspo" class="inspo">
+        <img src="goc1.png" alt="inspo" class="inspo1">
+        <img src="goc2.png" alt="inspo" class="inspo2">
         <p>
             Where does it come from?
             Contrary to popular belief, Lorem Ipsum is not
@@ -79,34 +94,36 @@
         </p>
 
 
-</section>
-<section class="julestjerne">
-    <h3>How to make a christmas star</h3>
-    <!--tilføjelse af youtube video har jeg fundet her d. 14/12: https://www.w3schools.com/html/html_youtube.asp-->
-    <iframe width="344" height="200" src="https://www.youtube.com/watch?v=Bnf5u-G3drs"></iframe>
-    <P>
-        Where does it come from?
-        Contrary to popular belief, Lorem Ipsum is not
-        simply random text. It has roots in a piece of
-        classical Latin literature from 45 BC, making it over
-        2000 years old. Richard McClintock, a Latin professor
-        at Hampden-Sydney College in Virginia, looked up
-        one of the more obscure Latin words, consectetur,
-        from a Lorem Ipsum passage, and going through the
-        cites of the word in classical literature, discovered the.
-    </P>
+    </section>
+    <section class="julestjerne">
+        <h3>How to make a christmas star</h3>
+        <!--Guide til at sætte video ind d. 15/12: https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_all-->
+        <video width="344" height="200" controls>
+            <source src="stjerne.mp4" type="video/mp4">
+        </video>
+        <P>
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not
+            simply random text. It has roots in a piece of
+            classical Latin literature from 45 BC, making it over
+            2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up
+            one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the
+            cites of the word in classical literature, discovered the.
+        </P>
 
 
-</section>
-<section id="kontakt">
-    <h2>Kontakt</h2>
-        <p class="kontakt">jess4574@edu.zealand.dk<br>+45 12345678</p>
+    </section>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+            <p class="kontakt">jess4574@edu.zealand.dk<br>+45 12345678</p>
 
 
-</section>
-<footer>
-    <p class="footer">Jessica Wittrup Issaka, 2021</p>
-</footer>
+    </section>
+    <footer>
+        <p class="footer">Jessica Wittrup Issaka, 2021</p>
+    </footer>
 
 
 
