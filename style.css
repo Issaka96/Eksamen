@@ -1,3 +1,8 @@
+/*har lavet margin: 0 på body, for at slette den margin computeren selv har lavet, så min header og baggrunde fylder hele siden*/
+body {
+    margin: 0;
+}
+
 /*baggrundsbillede på mobil*/
 .baggrund
 {
@@ -11,6 +16,7 @@
     margin-left: -8px;
     
 }
+
 
 /*overskrift*/
 h1 {
@@ -30,6 +36,7 @@ h1 {
     text-align: center;
     margin-top: 10px;
     padding-top: 5px;
+    
 }
 
 h2 {
@@ -39,8 +46,11 @@ h2 {
     text-align: center;
     margin-top: 10px;
     padding-top: 50px;
+    
+}
 
-
+hr {
+    width: 200px;
 }
 
 .navbar-mobil ul {
@@ -293,6 +303,7 @@ header {
 
     .logo {
         display: none;
+        
     }
 
 
@@ -307,6 +318,11 @@ header {
     header {
         background-color: #FFFFFF;
         display: initial;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        display: block;
+        width: 100%;
         
         
         
@@ -329,7 +345,6 @@ header {
         
     }
 
-
     .navbar-computer ul a {
         text-decoration: none;
         font-size: 20px;
@@ -344,6 +359,7 @@ header {
         display: initial;
         height: 40px;
         width: 60px;
+        padding: 10px;
     }
 
     .forside {
@@ -403,6 +419,98 @@ header {
     .forside {
         height: 600px;
     }
+
+    .spacejam {
+       display: flex;
+       float: right;
+       margin-right: 30px;
+
+    }
+
+    .spacejam-tekst {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+       
+        
+    }
+
+    .h3-venstre {
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .inspo {
+        display: flex;
+        margin-top: 50px;
+ 
+     }
+
+     .inspo1 {
+         display: flex;
+         float: left;
+         margin-top: 10px;
+         width: 295px;
+
+     }
+
+     .inspo2 {
+         display: flex;
+         float: left;
+         margin-top: 10px;
+         width: 295px;
+         margin-left: 10px;
+     }
+
+
+
+    .gocycle-tekst {
+      margin-right: 100px;
+      margin-top: -250px;
+      margin-left: 680px;
+      display: flex;
+      padding-left: 50px;
+      
+     
+           
+    }
+
+    .h3-højre {
+        margin-left: 110px;
+        margin-top: 50px;
+        
+       
+    }
+
+    .julestjerne {
+        padding-top: 50px;
+    }
+
+
+
+    video {
+        display: flex;
+        float: right;
+        margin-right: 80px;
+
+    }
+
+
+    .video-tekst {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 200px;
+        padding-right: 100px;
+        padding-top: 50px;
+
+    }
+
+   
+
+
+  
+
 
    
 
