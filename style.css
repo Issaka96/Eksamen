@@ -58,7 +58,6 @@ hr {
     padding-top: 70px;
     padding-bottom: 130px;
 
-
 }
 
 .navbar-mobil ul a {
@@ -101,7 +100,6 @@ h3 {
 
 .spacejam {
     width: 350px;
-    
     
 }
 
@@ -171,10 +169,9 @@ header {
 }    
 
 
-    
 
 
-/*iPad version*/
+/*iPadversion*/
 @media screen and (min-width: 768px) {
 
     h1 {
@@ -239,12 +236,16 @@ header {
         padding-left: 80px;
     }
 
+    .spacejam-tekst {
+        margin: 70px;
+    }
+
     .rumrejsen {
-        padding-bottom: 300px;
+        padding-bottom: 50px;
     }
 
     .gocycle {
-        padding-bottom: 300px;
+        padding-bottom: 30px;
     }
 
     .inspo {
@@ -268,6 +269,10 @@ header {
         
     }
 
+    .gocycle-tekst {
+        margin: 70px;
+    }
+
 
     video {
         width: 600px;
@@ -277,9 +282,14 @@ header {
         
     }
 
+    .video-tekst {
+        margin: 70px;
+    }
+
 
     .julestjerne {
-        padding-bottom: 400px;
+        padding-bottom: 120px;
+    
     }
 
     
@@ -291,7 +301,7 @@ header {
         
     }
 
-    /*det der ikke skal vises på iPadversionen*/
+    /*det der ikke skal vises på iPad*/
     header {
         display: none;
     }
@@ -304,10 +314,6 @@ header {
         display: none;
         
     }
-
-    
-
-
 
 
 }
@@ -377,14 +383,6 @@ header {
         padding-top: 220px;
     }
 
-    .navbar-mobil {
-        display: none;
-    }
-
-    .baggrund {
-        display: none;
-    }
-
     .computer-baggrund {
         width: 100%;
         background-repeat: no-repeat;
@@ -413,13 +411,11 @@ header {
         width: 280px;
         padding-top: 120px;
 
-
     }
 
     .info {
         padding-right: 850px;
         padding-left: 50px;
-
     
     }
 
@@ -474,7 +470,7 @@ header {
 
     .gocycle-tekst {
       margin-right: 100px;
-      margin-top: -250px;
+      margin-top: -270px;
       margin-left: 680px;
       display: flex;
       padding-left: 50px;
@@ -500,6 +496,7 @@ header {
         display: flex;
         float: right;
         margin-right: 80px;
+        margin-top: 50px;
 
     }
 
@@ -509,7 +506,6 @@ header {
         margin-left: 100px;
         margin-right: 200px;
         padding-right: 100px;
-        padding-top: 50px;
 
     }
 
@@ -517,14 +513,14 @@ header {
         justify-content: space-evenly;
     }
 
-    
+    /*det der ikke skal vises på computerversionen*/
+    .navbar-mobil {
+        display: none;
+    }
 
-   
-
-
-
-
-
+    .baggrund {
+        display: none;
+    }
 
     
 }
