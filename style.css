@@ -130,6 +130,12 @@ p {
     margin-left: -8px;
 }
 
+iframe {
+    width: 100%;
+    border:none;
+    margin-left: 7px;
+}
+
 .kontakt {
     text-align: center;
     line-height: 70px;
@@ -274,7 +280,7 @@ header {
     }
 
 
-    video {
+    iframe {
         width: 600px;
         height: 300px;
         margin: auto;
@@ -492,7 +498,7 @@ header {
 
 
 
-    video {
+    iframe {
         display: flex;
         float: right;
         margin-right: 80px;
